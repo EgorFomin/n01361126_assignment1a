@@ -2,9 +2,90 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Skiing_incedent_report</title>
 </head>
 <body>
+    <h1>Skiing incedent report</h1>
+
+    <form method="POST" action="http://sandbox.bittsdevelopment.com/humber/httpdebug/acceptdata.php">
+        <div>
+            <label for="firstname">Your first name:</label>
+            <input type="text" name="fname" id="firstname" placeholder="e.g. John...">
+        </div>
+        <div>
+            <label for="lastname">Your last name:</label>
+            <input type="text" name="lname" id="lastname" placeholder="e.g. Smith...">
+        </div>
+
+        <!--Checkbox - 1 -->
+        <section>
+            <h2>Your vehicle (used during the incident) </h2>
+            <div><input type="checkbox" value="Snowboard" id="snowboard_usual" name="snowboard_usual" /><label for="snowboard_usual">Snowboard</label></div>
+            <div><input type="checkbox" value="Skiing" id="skiing_weird" name="skiing_weird" /><label for="skiing_weird">Skiing</label></div>
+            <div><input type="checkbox" value="Trash cover" id="trash_cover_crazy" name="trash_cover_crazy" /><label for="trash_cover_crazy">Trash cover</label></div>
+            <div><input type="checkbox" value="Yonger brother" id="yonger_brother_perfect" name="yonger_brother_perfect" /><label for="yonger_brother_perfect">Yonger brother</label></div>
+        </section>
+
+        <!--Checkbox - 2 -->
+        <section>
+            <h2>How did you get home?</h2>
+            <div><input type="checkbox" value="By my own" id="walk" name="walk" /><label for="walk">By my own</label></div>
+            <div><input type="checkbox" value="Helicopter" id="urgent" name="urgent" /><label for="urgent">Helicopter</label></div>
+            <div><input type="checkbox" value="Still here" id="deadman" name="deadman" /><label for="deadman">Still here</label></div>
+        </section>
+
+        <!--I did some forms like Joanna teached us in Design lessons-->
+        <!--radio button - 1 -->
+        <fieldset>
+            <legend>How do you rate your condition?</legend>
+            <div>
+                <input type="radio" name="condition" id="a" value="Wow! I wanna repeat that!">
+                <label for="a">Wow! I wanna repeat that!</label>
+            </div>
+            <div>
+                <input type="radio" name="condition" id="b" value="Well, I think that was a bad idea!">
+                <label for="b">Well, I think that was a bad idea!</label>
+            </div>
+            <div>
+                <input type="radio" name="condition" id="c" value="Can somebody kill me?">
+                <label for="c">Can somebody kill me?</label>
+            </div>
+        </fieldset>
+
+        <!--radio button - 2 -->
+        <fieldset>
+            <legend>What did you think at the last minute just before the fall ?</legend>
+            <div>
+                <input type="radio" name="last_min" id="a" value="My Cat">
+                <label for="a">My Cat</label>
+            </div>
+            <div>
+                <input type="radio" name="last_min" id="b" value="I did not know that I am so flexible">
+                <label for="b">I did not know that I am so flexible</label>
+            </div>
+            <div>
+                <input type="radio" name="last_min" id="c" value="What a Hack?!">
+                <label for="c">What a Hack?!</label>
+            </div>
+        </fieldset>
+
+        <!--drop-down list -->
+        <div>
+            <label for="level">Level of your insurance:</label>
+            <select name="level" id="level">
+                <option value="">- Select one -</option>
+                <option value="best">I can break one more leg!</option>
+                <option value="full">Bring me hot chocolate!</option>
+                <option value="student">Maybe you can call my mom?</option>
+                <option value="homeless">You know what to do with my body.</option>
+            </select>
+        </div>
+
+        <!-- Submit Button -->
+        <section>
+            <input type="submit" value="Enter" />
+        </section>
+    </form>
 
 </body>
 </html>
