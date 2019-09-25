@@ -64,9 +64,7 @@
         <section>
             <label>How many fingers have you broken?</label>
             <asp:TextBox runat="server" ID="aspx_fingers"></asp:TextBox>
-        <!--Range Validator for user`s broken fingers
-            (do not understand why it is not working for numbers from 3 to 10 ? :( )
-            -->
+        <!--Range Validator for user`s broken fingers -->
             <asp:RangeValidator runat="server"  
                 ControlToValidate="aspx_fingers"
                 Type="Integer"
