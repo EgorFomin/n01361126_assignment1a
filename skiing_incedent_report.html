@@ -3,23 +3,32 @@
 <head>
     <meta charset="utf-8" />
     <title>Skiing_incedent_report</title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css">
 </head>
 <body>
     <h1>Skiing incedent report</h1>
 
     <form method="POST" action="http://sandbox.bittsdevelopment.com/humber/httpdebug/acceptdata.php">
-        <div>
-            <label for="firstname">Your first name:</label>
-            <input type="text" name="fname" id="firstname" placeholder="e.g. John...">
-        </div>
-        <div>
-            <label for="lastname">Your last name:</label>
-            <input type="text" name="lname" id="lastname" placeholder="e.g. Smith...">
-        </div>
+        <!--User input firstname-->
+        <section>
+            <label for="user_firstname">Your first name:</label>
+            <input type="text" name="fname" id="user_firstname" placeholder="e.g. John...">
+        </section>
+        <!--User input lastname-->
+        <section>
+            <label for="user_lastname">Your last name:</label>
+            <input type="text" name="lname" id="user_lastname" placeholder="e.g. Smith...">
+        </section>
+
+        <!--User input phone number-->
+        <section>
+            <label for="user_phonenumber">Your phone number:</label>
+            <input type="text" name="lname" id="user_phonenumber" placeholder="(999) 258 25 54">
+        </section>
 
         <!--Checkbox - 1 -->
         <section>
-            <h2>Your vehicle (used during the incident) </h2>
+            <label>Your vehicle (used during the incident) </label>
             <div><input type="checkbox" value="Snowboard" id="snowboard_usual" name="snowboard_usual" /><label for="snowboard_usual">Snowboard</label></div>
             <div><input type="checkbox" value="Skiing" id="skiing_weird" name="skiing_weird" /><label for="skiing_weird">Skiing</label></div>
             <div><input type="checkbox" value="Trash cover" id="trash_cover_crazy" name="trash_cover_crazy" /><label for="trash_cover_crazy">Trash cover</label></div>
@@ -28,7 +37,7 @@
 
         <!--Checkbox - 2 -->
         <section>
-            <h2>How did you get home?</h2>
+            <label>How did you get home?</label>
             <div><input type="checkbox" value="By my own" id="walk" name="walk" /><label for="walk">By my own</label></div>
             <div><input type="checkbox" value="Helicopter" id="urgent" name="urgent" /><label for="urgent">Helicopter</label></div>
             <div><input type="checkbox" value="Still here" id="deadman" name="deadman" /><label for="deadman">Still here</label></div>
@@ -36,41 +45,41 @@
 
         <!--I did some forms like Joanna teached us in Design lessons-->
         <!--radio button - 1 -->
-        <fieldset>
-            <legend>How do you rate your condition?</legend>
+        <section>
+            <label>How do you rate your condition?</label>
             <div>
-                <input type="radio" name="condition" id="a" value="Wow! I wanna repeat that!">
-                <label for="a">Wow! I wanna repeat that!</label>
+                <input type="radio" name="condition" id="radio_1_a" value="Wow! I wanna repeat that!">
+                <label for="radio_1_a">Wow! I wanna repeat that!</label>
             </div>
             <div>
-                <input type="radio" name="condition" id="b" value="Well, I think that was a bad idea!">
-                <label for="b">Well, I think that was a bad idea!</label>
+                <input type="radio" name="condition" id="radio_1_b" value="Well, I think that was a bad idea!">
+                <label for="radio_1_b">Well, I think that was a bad idea!</label>
             </div>
             <div>
-                <input type="radio" name="condition" id="c" value="Can somebody kill me?">
-                <label for="c">Can somebody kill me?</label>
+                <input type="radio" name="condition" id="radio_1_c" value="Can somebody kill me?">
+                <label for="radio_1_c">Can somebody kill me?</label>
             </div>
-        </fieldset>
+        </section>
 
         <!--radio button - 2 -->
-        <fieldset>
-            <legend>What did you think at the last minute just before the fall ?</legend>
+        <section>
+            <label>What did you think at the last minute just before the fall ?</label>
             <div>
-                <input type="radio" name="last_min" id="a" value="My Cat">
-                <label for="a">My Cat</label>
+                <input type="radio" name="last_min" id="radio_2_a" value="My Cat">
+                <label for="radio_2_a">My Cat</label>
             </div>
             <div>
-                <input type="radio" name="last_min" id="b" value="I did not know that I am so flexible">
-                <label for="b">I did not know that I am so flexible</label>
+                <input type="radio" name="last_min" id="radio_2_b" value="I did not know that I am so flexible">
+                <label for="radio_2_b">I did not know that I am so flexible</label>
             </div>
             <div>
-                <input type="radio" name="last_min" id="c" value="What a Hack?!">
-                <label for="c">What a Hack?!</label>
+                <input type="radio" name="last_min" id="radio_2_c" value="What a Hack?!">
+                <label for="radio_2_c">What a Hack?!</label>
             </div>
-        </fieldset>
+        </section>
 
         <!--drop-down list -->
-        <div>
+        <section>
             <label for="level">Level of your insurance:</label>
             <select name="level" id="level">
                 <option value="">- Select one -</option>
@@ -79,11 +88,11 @@
                 <option value="student">Maybe you can call my mom?</option>
                 <option value="homeless">You know what to do with my body.</option>
             </select>
-        </div>
+        </section>
 
         <!-- Submit Button -->
         <section>
-            <input type="submit" value="Enter" />
+            <input id="Enter" type="submit" value="Enter" />
         </section>
     </form>
 

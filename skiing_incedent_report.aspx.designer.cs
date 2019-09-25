@@ -13,31 +13,40 @@ namespace Assignment_1 {
     public partial class skiing_incedent_report {
         
         /// <summary>
-        /// form1 control.
+        /// aspx_form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm aspx_form1;
         
         /// <summary>
-        /// firstname control.
+        /// aspx_user_firstname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox firstname;
+        protected global::System.Web.UI.WebControls.TextBox aspx_user_firstname;
         
         /// <summary>
-        /// lastname control.
+        /// aspx_user_lastname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lastname;
+        protected global::System.Web.UI.WebControls.TextBox aspx_user_lastname;
+        
+        /// <summary>
+        /// aspx_user_phonenumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox aspx_user_phonenumber;
         
         /// <summary>
         /// aspx_vehicle control.
@@ -56,6 +65,15 @@ namespace Assignment_1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBoxList aspx_home;
+        
+        /// <summary>
+        /// aspx_fingers control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox aspx_fingers;
         
         /// <summary>
         /// aspx_condition control.
@@ -85,12 +103,21 @@ namespace Assignment_1 {
         protected global::System.Web.UI.WebControls.DropDownList aspx_insurance;
         
         /// <summary>
-        /// Enter control.
+        /// confirmbox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Enter;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl confirmbox;
+        
+        /// <summary>
+        /// aspx_Enter control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button aspx_Enter;
     }
 }

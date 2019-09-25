@@ -1,6 +1,7 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
     padding-top: 50px;
+    background-color: #0ABF7A;
     padding-bottom: 20px;
 }
 
@@ -28,4 +29,22 @@ textarea {
     .body-content {
         padding: 0;
     }
+}
+
+h1 {
+    background-color: #44BF32;
+    color: #034029;
+    padding: 30px;
+    margin: 0 auto 20px;
+    width: 50%;
+    text-align: center;
+    border-radius: 4px;
+}
+section {
+    color: #fff;
+    background-color: #034029;
+    width: 70%;
+    padding: 30px;
+    margin: 0 auto 20px;
+    border-radius: 4px;
 }
