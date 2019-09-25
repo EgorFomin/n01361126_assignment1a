@@ -68,7 +68,8 @@
             (do not understand why it is not working for numbers from 3 to 10 ? :( )
             -->
             <asp:RangeValidator runat="server"  
-                ControlToValidate="aspx_fingers" 
+                ControlToValidate="aspx_fingers"
+                Type="Integer"
                 MinimumValue="0" 
                 MaximumValue="20"
                 ErrorMessage="Please, enter a fingers number between 0 and 20." >
