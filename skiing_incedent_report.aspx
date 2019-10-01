@@ -97,7 +97,7 @@
         <!--drop-down list -->
         <section>
             <label for="level">Level of your insurance:</label>
-            <asp:DropDownList runat="server" ID="aspx_insurance">
+            <asp:DropDownList runat="server" ID="user_insurance">
                     <asp:ListItem Text="- Select one -" Value="- Select one -"></asp:ListItem>
                     <asp:ListItem Text="I can break one more leg!" Value="I can break one more leg!"></asp:ListItem>
                     <asp:ListItem Text="Bring me hot chocolate!" Value="Bring me hot chocolate!"></asp:ListItem>

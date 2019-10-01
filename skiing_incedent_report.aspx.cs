@@ -20,7 +20,7 @@ namespace Assignment_1
                     string User_Firstname = aspx_user_firstname.Text.ToString();
                     string User_Lastname = aspx_user_lastname.Text.ToString();
                     string User_Phonenumber = aspx_user_phonenumber.Text.ToString();
-                    string Level_Insurance = aspx_insurance.Text.ToString();
+                    string Level_Insurance = user_insurance.Text.ToString();
                     int User_Fingers = Convert.ToInt32(aspx_fingers.Text);
 
                     confirmbox.InnerHtml = "Server-side Validation just happened! Your Summary is as follows: <br>";

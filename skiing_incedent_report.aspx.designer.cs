@@ -94,13 +94,13 @@ namespace Assignment_1 {
         protected global::System.Web.UI.WebControls.RadioButtonList aspx_last_min;
         
         /// <summary>
-        /// aspx_insurance control.
+        /// user_insurance control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList aspx_insurance;
+        protected global::System.Web.UI.WebControls.DropDownList user_insurance;
         
         /// <summary>
         /// confirmbox control.
